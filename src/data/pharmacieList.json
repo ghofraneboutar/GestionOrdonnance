@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ph001",
+    "nom": "Pharmacie Centrale",
+    "adresse": "15 Avenue de la République, Tunis",
+    "telephone": "71234567"
+  },
+  {
+    "id": "ph002",
+    "nom": "Pharmacie de la Santé",
+    "adresse": "28 Rue Habib Bourguiba, Tunis",
+    "telephone": "71345678"
+  },
+  {
+    "id": "ph003",
+    "nom": "Pharmacie du Nord",
+    "adresse": "42 Avenue Mohamed V, Ariana",
+    "telephone": "71456789"
+  }
+]

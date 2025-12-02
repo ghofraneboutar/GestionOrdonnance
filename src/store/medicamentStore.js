@@ -3,7 +3,7 @@ import {
   getMedicaments,
   addMedicament,
   updateMedicament,
-  deleteMedicament
+  deleteMedicament,
 } from "../api/medicamentService";
 
 export const useMedicamentStore = create((set) => ({
@@ -27,5 +27,5 @@ export const useMedicamentStore = create((set) => ({
   deleteMedicament: async (id) => {
     const newList = await deleteMedicament(id);
     set({ medicaments: newList });
-  }
+  },
 }));
