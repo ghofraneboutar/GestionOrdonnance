@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { AppNavigator } from "./src/navigation/AppNavigator";
 import { clearStorage, saveItem } from "./src/api/asyncStorage.js";
-import { initializeUsers } from "./src/api/userService.js";
+import { initializeUsers } from "./src/api/UserService.js";
 
 export default function App() {
   useEffect(() => {

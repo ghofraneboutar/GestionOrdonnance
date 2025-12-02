@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { authenticateUser, initializeUsers } from "../api/userService";
+import { authenticateUser, initializeUsers } from "../api/UserService"; // ✔️ majuscule U
 
 export const useAuthStore = create((set) => ({
   currentUser: null,
